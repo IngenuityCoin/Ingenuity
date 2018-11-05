@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Ingenuity
+Comment=Ingenuity P2P Cryptocurrency
+Comment[fr]=Ingenuity, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Ingenuity, eşten eşe kriptografik sanal para birimi
+Exec=ingenuity-qt %u
+Terminal=false
+Type=Application
+Icon=ingenuity128
+MimeType=x-scheme-handler/ingenuity;
+Categories=Office;Finance;

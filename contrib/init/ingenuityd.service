@@ -1,0 +1,26 @@
+[Unit]
+Description=Ingenuity's distributed currency daemon
+After=network.target
+
+[Service]
+User=ingenuity
+Group=ingenuity
+
+Type=forking
+PIDFile=/var/lib/ingenuityd/ingenuityd.pid
+
+ExecStart=/usr/bin/ingenuityd -daemon -pid=/var/lib/ingenuityd/ingenuityd.pid \
+          -conf=/etc/ingenuity/ingenuity.conf -datadir=/var/lib/ingenuityd
+
+ExecStop=-/usr/bin/ingenuity-cli -conf=/etc/ingenuity/ingenuity.conf \
+         -datadir=/var/lib/ingenuityd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

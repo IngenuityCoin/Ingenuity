@@ -1,0 +1,26 @@
+# /etc/conf.d/ingenuityd: config file for /etc/init.d/ingenuityd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/ingenuity/ingenuity.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/ingenuityd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/ingenuityd.pid"
+
+# Where to write ingenuityd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/ingenuityd"
+
+# User and group to own ingenuityd process
+#BITCOIND_USER="ingenuity"
+#BITCOIND_GROUP="ingenuity"
+
+# Path to ingenuityd executable
+#BITCOIND_BIN="/usr/bin/ingenuityd"
+
+# Nice value to run ingenuityd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
