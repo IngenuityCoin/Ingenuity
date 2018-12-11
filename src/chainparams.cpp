@@ -81,6 +81,8 @@ boost::assign::map_list_of
 (50000, uint256("0xcb0073e449be607c1205a3724ac5bf2574a24d53d4c3adec9afdb220aeef337b"))
 (50001, uint256("0x3077e8c79aed44ab86dd8ccf33e0f16e11b0e194fabd5ed46c3e0af601db8b14"))
 (51459, uint256("0x5982a6921b87e2601bbdc5023dd41a882518b150bc83378ecd9513abbe390bd3"))
+(52628, uint256("0xb22456ade5a1aca138d882527e8618d12bf83f3346fa9a6cee06e27d4c6af5c9"))
+(52709, uint256("0x31281013d9d71eae3dfcffab5d9de1d8422d3f60e362e52454f395d4bac13022"))
 ;
 
 static const Checkpoints::CCheckpointData data = {
