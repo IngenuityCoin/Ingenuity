@@ -1,7 +1,10 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2018 The Ingenuity developers
+// Copyright (c) 2015-2018 The PIVX developers
+// Copyright (c) 2018-2019 The Ingenuity developers
+
+
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -83,12 +86,16 @@ boost::assign::map_list_of
 (51459, uint256("0x5982a6921b87e2601bbdc5023dd41a882518b150bc83378ecd9513abbe390bd3"))
 (52628, uint256("0xb22456ade5a1aca138d882527e8618d12bf83f3346fa9a6cee06e27d4c6af5c9"))
 (52709, uint256("0x31281013d9d71eae3dfcffab5d9de1d8422d3f60e362e52454f395d4bac13022"))
+(81678, uint256("0x42f713996894520292139d2413e0adb5c0e85268cac02e359a0a16219766b1f4"))
+(129803, uint256("0x4abb64e2088017f5efbe6b7b3f0db9704d2eea8fcae915e4c99e8a73a5e13f05"))
+(162539, uint256("0xa9ad9db9c4809897c73ffbec0322089638809898fd872443076c6e55711bfa0e"))
+(166357, uint256("0xbff3b772839330e180278a3fddc3ff1408f07f656000c1f91270af39b368c289"))
 ;
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-	1541407551, // * UNIX timestamp of last checkpoint block
-	3398,    // * total number of transactions between genesis and last checkpoint
+	1551413404, // * UNIX timestamp of last checkpoint block
+	353785,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2500        // * estimated number of transactions per day after checkpoint
 };

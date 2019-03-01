@@ -7,7 +7,10 @@
 ///
 /// \copyright  Copyright 2013 Ian Miers, Christina Garman and Matthew Green
 /// \license    This project is released under the MIT license.
-// Copyright (c) 2017 The Ingenuity developers
+// Copyright (c) 2017 The PIVX developers
+// Copyright (c) 2018-2019 The Ingenuity developers
+
+
 
 #ifndef PARAMGENERATION_H_
 #define PARAMGENERATION_H_
